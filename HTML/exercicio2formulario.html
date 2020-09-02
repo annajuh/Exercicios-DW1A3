@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+ 
+    <head>
+
+    	<meta charset="uft-8"/>
+        <title>Formulário</title>
+
+    </head>
+    
+    <body>
+
+        <h1>Formulário</h1>
+        
+        <form action="http://www.example.com/login.php" method="post">
+        <p>Email:
+            <input type="text" name="username" size="30" maxlength="50">
+        </p>
+        <p>Password:
+            <input type="Password" name="Password" size="15" maxlength="30">
+        </p>
+        <p>Observações:</p>
+               <textarea name="comments" cols="20" rows="5"> Entre com a sua observação...</textarea>  
+            
+        <p>Selecione seu gênero:
+            <br>
+            <input type="radio" name="gênero" value="Feminino"/> Feminino
+            <input type="radio" name="gênero" value="Masculino"/> Masculino
+            <input type="radio" name="gênero" value="Outro"/> Outro
+         </p>
+
+         <p>Quais dispositivos você tem?
+            <br>
+            <input type="checkbox" name="dispositivos" value="Computador"/> Computador
+            <input type="checkbox" name="dispositivos" value="Notebook"/> Notebook
+            <input type="checkbox" name="dispositivos" value="Tablet"/> Tablet
+            <input type="checkbox" name="dispositivos" value="Celular"/> Celular
+             </p>
+
+             <p>Escolha o idioma:</p>
+             <select name="devices">
+                 <option value="Português">Português</option>
+                 <option value="Inglês">Inglês</option>
+                 <option value="Espanhol">Espanhol</option>
+                 <option value="Japonês">Japonês</option>
+                 <option value="Mandarim">Mandarim</option>
+             </select>
+
+          <p>Adicione uma foto:</p>
+          <input type="file" name="user-pic"><br>
+          <input type="submit" name="Upload">
+
+          <p>Segunda opção de email:</p>
+          <input type="text" name="email"/>
+          <input type="submit" name="subscribe" value="subscribe"/>
+
+          <p>Pesquisa</p>
+          <input type="search" name="search" placeholder="Enter">
+          <input type="submit" name="search">
+
+
+          <label>Idade: <input type="text" name="age"/></label>
+          <br/>
+          Serviço:
+          <input id="email" type="radio" name="Serviço" value="e">
+          <label for="email">Email</label>
+          <input id="documentos" type="radio" name="Serviço" value="d">
+          <label for="documentos">Documentos</label>
+
+        <fieldset>
+            <legend>Contato</legend>
+            <label>Celular:<br><input type="text" name="mobile"/></label><br>
+            <label>Telefone:<br><input type="text" name="telefone"/></label><br>
+        </fieldset>
+
+        <label for="username">Data de nascimento:</label>
+        <input type="date" name="depart"/>
+        <input type="submit" name="Enviar"/>
+
+
+    </form>
+    </body>
+ 
+</html>
