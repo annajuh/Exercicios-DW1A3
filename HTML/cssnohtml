@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+ 
+    <head>
+
+    	<meta charset="uft-8"/>
+        <title>CSS Interno</title>
+        <style type="text/css">
+
+            <style type="text/css">
+            body {
+            font-family: arial;
+            background-color: rgb(185,179,175);}
+            h1 {
+            color: rgb(255,255,255);}
+            </style>
+
+    </head>
+    
+    <body>
+        
+        <h1>Lorem ipsum</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis malesuada est. Vivamus gravida, sem in pharetra sagittis,
+risus libero commodo massa, quis suscipit nulla ipsum in quam. </p>
+
+        
+    </body>
+ 
+</html>
